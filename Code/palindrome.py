@@ -1,6 +1,4 @@
-
 def is_palindrome(word):
-	word=word.lower() 
 	word2 = ''.join(reversed(word))
 	if word == word2:
 		return True
@@ -8,4 +6,3 @@ def is_palindrome(word):
 		return False
 
 print(is_palindrome('Deleveled'))
-# This should print True
